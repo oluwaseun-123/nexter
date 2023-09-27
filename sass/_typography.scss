@@ -1,0 +1,117 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #c69963;
+
+  &-1 {
+    color: #54483a;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  &-2 {
+    color: #54483a;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  &-3 {
+    color: #c69963;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+  }
+
+  &-4 {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+  }
+}
+main {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-between;
+  // gap: 2rem;
+  padding: 0 10rem;
+  // width: 100%;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 5rem;
+  margin-top: 5rem;
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    // gap: 5rem;
+  }
+}
+.story {
+  display: flex;
+  flex-direction: row;
+  // padding: 10rem;
+  width: 100%;
+
+  // &-background {
+  //   // position: relative;
+  // }
+
+  &-pictures {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #c69963;
+    background-image: linear-gradient(
+        to right,
+        rgba(198, 153, 99, 0.5),
+        rgba(198, 153, 99, 0.5)
+      ),
+      url(../img/back.jpg);
+    background-size: cover;
+    width: 50%;
+    padding: 10rem;
+    // height: inherit;
+    // position: relative;
+  }
+  &-1 {
+    // position: absolute;
+    height: 20rem;
+    width: 25rem;
+    // right: 3rem;
+  }
+
+  &-2 {
+    // position: absolute;
+    height: 15rem;
+    width: 30rem;
+    // right: 4rem;
+    // margin-right: 5rem;
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 4rem;
+    background-color: #f9f7f6;
+    line-height: 2;
+    width: 50%;
+    // height: inherit;
+    // text-transform: uppercase;
+  }
+}

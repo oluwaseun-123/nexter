@@ -1,0 +1,15 @@
+{
+  "name": "seun",
+  "version": "1.0.0",
+  "description": "nexter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "sass sass/main.scss css/stylesheet.css -w"
+  },
+  "author": "seun",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.68.0"
+  }
+}

@@ -1,0 +1,195 @@
+.bar {
+  background-color: #c69963;
+  position: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  width: 5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 8rem;
+  padding-top: 4rem;
+}
+.header-home {
+  width: 60%;
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+.header__home {
+  font-size: 1.8rem;
+  color: #c69963;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header__freedom {
+  color: white;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #c69963;
+}
+.heading-1 {
+  color: #54483a;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+.heading-2 {
+  color: #54483a;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.heading-3 {
+  color: #c69963;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+.heading-4 {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 5rem;
+  margin-top: 5rem;
+}
+.features-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.story-pictures {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #c69963;
+  background-image: linear-gradient(to right, rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
+  background-size: cover;
+  width: 50%;
+  padding: 10rem;
+}
+.story-1 {
+  height: 20rem;
+  width: 25rem;
+}
+.story-2 {
+  height: 15rem;
+  width: 30rem;
+}
+.story-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem;
+  background-color: #f9f7f6;
+  line-height: 2;
+  width: 50%;
+}
+
+.realtors {
+  background-color: #101d2c;
+  padding: 5rem;
+  width: 40%;
+  overflow: hidden;
+}
+
+.fineland {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
+  gap: 1rem;
+}
+
+.fein-land {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.erik {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.nexter-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.bbc-logo {
+  max-height: 2rem;
+  max-width: 100%;
+  margin-top: 5rem;
+}
+
+.btn {
+  background-color: #c69963;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  border: none;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
