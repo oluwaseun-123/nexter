@@ -37,6 +37,27 @@
     font-size: 1rem;
     font-style: italic;
     margin-bottom: 3rem;
+    color: #6d5d4b;
+  }
+
+  &-5 {
+    color: #c69963;
+    font-size: 1rem;
+  }
+
+  &-6 {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    color: #f9f7f6;
+    background-color: #101d2c;
+    width: 80%;
+    border: none;
+    padding: 1rem;
+    margin-top: -5rem;
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    margin: auto;
   }
 }
 main {
@@ -46,13 +67,14 @@ main {
   justify-content: space-between;
   // gap: 2rem;
   padding: 0 10rem;
+  margin-left: 5rem;
   // width: 100%;
 }
 .features {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 0 5rem;
+  padding: 2rem 5rem;
   margin-top: 5rem;
 
   &-box {
@@ -64,8 +86,9 @@ main {
 .story {
   display: flex;
   flex-direction: row;
+  margin-left: 5rem;
   // padding: 10rem;
-  width: 100%;
+  // width: 100%;
 
   // &-background {
   //   // position: relative;
@@ -86,21 +109,22 @@ main {
     width: 50%;
     padding: 10rem;
     // height: inherit;
-    // position: relative;
+    position: relative;
   }
   &-1 {
-    // position: absolute;
+    position: absolute;
     height: 20rem;
     width: 25rem;
-    // right: 3rem;
+    left: 3rem;
   }
 
   &-2 {
-    // position: absolute;
+    position: absolute;
     height: 15rem;
     width: 30rem;
-    // right: 4rem;
-    // margin-right: 5rem;
+    // left: 7rem;
+    // bottom: 5rem;
+    // margin-right:3rem;
   }
   &-text {
     display: flex;
@@ -114,4 +138,49 @@ main {
     // height: inherit;
     // text-transform: uppercase;
   }
+}
+.homes {
+  margin-left: 5rem;
+  margin-top: 3rem;
+  padding: 4rem;
+  position: relative;
+  // width: 100%;
+
+  &-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f9f7f6;
+    // width: 100%;
+  }
+
+  &-card {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    // align-items: center;
+    // justify-content: center;
+  }
+
+  &-side {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    gap: 7rem;
+  }
+
+  &-image {
+    height: 15rem;
+    width: 20rem;
+  }
+}
+.span-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  color: #6d5d4b;
 }

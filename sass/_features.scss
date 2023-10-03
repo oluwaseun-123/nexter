@@ -1,0 +1,35 @@
+.footer {
+  margin-left: 5rem;
+  background-color: #101d2c;
+  margin-top: 10px;
+
+  &-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+    list-style: none;
+    // transition: all 2s;
+  }
+
+  &-links {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.279);
+    text-transform: uppercase;
+    // border: red 1px;
+    transition: all 5s;
+    padding: 0.5rem;
+    width: 15%;
+
+    &:hover {
+      // background-color: #101d2c;
+      // padding: 15rem;
+      transform: translateY(-1rem);
+    }
+  }
+}
+.copyright {
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}

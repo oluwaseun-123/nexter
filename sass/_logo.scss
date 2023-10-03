@@ -1,20 +1,23 @@
 .nexter-logo {
   display: flex;
   justify-content: center;
+  object-fit: cover;
 }
 .header-logo {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  // gap: 5rem;
   //   gap: 10rem;
   //   gap: 10rem;
   height: 2rem;
   margin-bottom: 5rem;
+  width: 40%;
 }
 .bbc-logo {
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-self: center;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
   //   align-self: center;
   //   flex-direction: row;
   //   justify-content: space-between;
