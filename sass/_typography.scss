@@ -4,6 +4,12 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
+
+  @media (max-width: 1198px) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 .heading {
   text-transform: uppercase;

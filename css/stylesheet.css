@@ -7,6 +7,13 @@
   height: 100vh;
   width: 5rem;
 }
+@media (max-width: 1200px) {
+  .bar {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+  }
+}
 
 * {
   padding: 0;
@@ -68,6 +75,14 @@
   color: white;
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
+}
+@media (max-width: 1196px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100vw;
+  }
 }
 
 .houses {
@@ -150,6 +165,13 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
+}
+@media (max-width: 1198px) {
+  .column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
 .heading {
@@ -306,6 +328,12 @@ main {
   width: 40%;
   overflow: hidden;
 }
+@media (max-width: 1195px) {
+  .realtors {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
 
 .fineland {
   display: flex;
@@ -333,22 +361,22 @@ main {
 
 .nexter-logo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   object-fit: cover;
 }
 
-.header-logo {
+.header__logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 2rem;
   height: 2rem;
   margin-bottom: 5rem;
-  width: 40%;
+  margin-left: 5rem;
 }
 
 .bbc-logo {
-  max-height: 2rem;
-  max-width: 100%;
+  height: 2rem;
+  width: 7rem;
   margin-top: 5rem;
 }
 
@@ -361,6 +389,9 @@ main {
 }
 .btn-card {
   width: 100%;
+}
+.btn-margin {
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

@@ -4,6 +4,11 @@
   width: 40%;
   overflow: hidden;
   // margin-left: 20rem;
+
+  @media (max-width: 1195px) {
+    width: 100%;
+    margin-top: 4rem;
+  }
 }
 .fineland {
   display: flex;

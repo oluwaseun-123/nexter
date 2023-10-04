@@ -32,4 +32,12 @@
     font-size: 2rem;
     font-family: "Josefin Sans", sans-serif;
   }
+
+  @media (max-width: 1196px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100vw;
+    // max-width: fit-content;
+  }
 }
