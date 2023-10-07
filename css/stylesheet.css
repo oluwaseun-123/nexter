@@ -12,6 +12,7 @@
     width: 100%;
     height: 5rem;
     position: fixed;
+    z-index: 20;
   }
 }
 
@@ -29,6 +30,7 @@
 .footer-link {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 4rem;
   list-style: none;
@@ -43,6 +45,11 @@
 }
 .footer-links:hover {
   transform: translateY(-1rem);
+}
+@media (max-width: 853px) {
+  .footer {
+    margin-left: 0;
+  }
 }
 
 .copyright {
@@ -66,6 +73,11 @@
   text-transform: uppercase;
   line-height: 2.5;
 }
+@media (max-width: 630px) {
+  .header-home {
+    width: 100% !important;
+  }
+}
 .header__home {
   font-size: 1.8rem;
   color: #c69963;
@@ -81,7 +93,13 @@
     display: flex;
     flex-direction: column;
     margin-left: 0;
-    width: 100vw;
+  }
+}
+@media (max-width: 650px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -93,6 +111,11 @@
   margin-left: 5rem;
   padding: 10px;
   background-color: #f9f7f6;
+}
+@media (max-width: 853px) {
+  .houses {
+    margin-left: 0;
+  }
 }
 
 .gallery {
@@ -173,6 +196,12 @@
     width: 100%;
   }
 }
+@media (max-width: 630px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .heading {
   text-transform: uppercase;
@@ -232,6 +261,16 @@ main {
   padding: 0 10rem;
   margin-left: 5rem;
 }
+@media (max-width: 1163px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    height: 100vh;
+    padding: 0;
+    text-transform: uppercase;
+  }
+}
 
 .features {
   display: flex;
@@ -261,16 +300,23 @@ main {
   padding: 10rem;
   position: relative;
 }
+@media (max-width: 1029px) {
+  .story-pictures {
+    width: 100%;
+    object-fit: cover;
+  }
+}
 .story-1 {
   position: absolute;
   height: 20rem;
-  width: 25rem;
+  width: 75%;
   left: 3rem;
 }
 .story-2 {
   position: absolute;
   height: 15rem;
-  width: 30rem;
+  width: 50%;
+  object-fit: cover;
 }
 .story-text {
   display: flex;
@@ -281,6 +327,18 @@ main {
   background-color: #f9f7f6;
   line-height: 2;
   width: 50%;
+}
+@media (max-width: 1026px) {
+  .story-text {
+    width: 100%;
+  }
+}
+@media (max-width: 1161px) {
+  .story {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
 }
 
 .homes {
@@ -302,15 +360,45 @@ main {
   flex-direction: row;
   gap: 7rem;
 }
+@media (max-width: 880px) {
+  .homes-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1054px) {
+  .homes-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .homes-side {
   display: flex;
   flex-direction: row;
   margin-top: 4rem;
   gap: 7rem;
 }
+@media (max-width: 880px) {
+  .homes-side {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1054px) {
+  .homes-side {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .homes-image {
   height: 15rem;
   width: 20rem;
+}
+@media (max-width: 939px) {
+  .homes {
+    margin-left: 0;
+    padding: 0;
+  }
 }
 
 .span-flex {
@@ -368,10 +456,16 @@ main {
 .header__logo {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 2rem;
-  height: 2rem;
   margin-bottom: 5rem;
   margin-left: 5rem;
+}
+@media (max-width: 630px) {
+  .header__logo {
+    margin-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 
 .bbc-logo {

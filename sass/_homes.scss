@@ -9,6 +9,10 @@
   background-color: #f9f7f6;
   // width: 100%;
   // overflow: hidden;
+
+  @media (max-width: 853px) {
+    margin-left: 0;
+  }
 }
 .gallery {
   // grid-template-columns: repeat(8, 1fr);

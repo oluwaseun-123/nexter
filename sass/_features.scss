@@ -6,6 +6,7 @@
   &-link {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem;
     list-style: none;
@@ -26,6 +27,10 @@
       // padding: 15rem;
       transform: translateY(-1rem);
     }
+  }
+
+  @media (max-width: 853px) {
+    margin-left: 0;
   }
 }
 .copyright {

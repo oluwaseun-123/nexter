@@ -10,6 +10,11 @@
     flex-direction: row;
     width: 100%;
   }
+
+  @media (max-width: 630px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .heading {
   text-transform: uppercase;
@@ -75,6 +80,15 @@ main {
   padding: 0 10rem;
   margin-left: 5rem;
   // width: 100%;
+
+  @media (max-width: 1163px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    height: 100vh;
+    padding: 0;
+    text-transform: uppercase;
+  }
 }
 .features {
   display: flex;
@@ -93,11 +107,13 @@ main {
   display: flex;
   flex-direction: row;
   margin-left: 5rem;
+
   // padding: 10rem;
   // width: 100%;
 
   // &-background {
   //   // position: relative;
+
   // }
 
   &-pictures {
@@ -116,18 +132,25 @@ main {
     padding: 10rem;
     // height: inherit;
     position: relative;
+
+    @media (max-width: 1029px) {
+      width: 100%;
+      object-fit: cover;
+    }
   }
+
   &-1 {
     position: absolute;
     height: 20rem;
-    width: 25rem;
+    width: 75%;
     left: 3rem;
   }
 
   &-2 {
     position: absolute;
     height: 15rem;
-    width: 30rem;
+    width: 50%;
+    object-fit: cover;
     // left: 7rem;
     // bottom: 5rem;
     // margin-right:3rem;
@@ -143,8 +166,19 @@ main {
     width: 50%;
     // height: inherit;
     // text-transform: uppercase;
+
+    @media (max-width: 1026px) {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1161px) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
   }
 }
+
 .homes {
   margin-left: 5rem;
   margin-top: 3rem;
@@ -168,6 +202,20 @@ main {
     gap: 7rem;
     // align-items: center;
     // justify-content: center;
+
+    @media (max-width: 880px) {
+      display: flex;
+      flex-direction: column;
+      // width: 50%;
+      // margin: auto;
+    }
+
+    @media (max-width: 1054px) {
+      display: flex;
+      flex-direction: column;
+      // width: 50%;
+      // margin: auto;
+    }
   }
 
   &-side {
@@ -175,11 +223,28 @@ main {
     flex-direction: row;
     margin-top: 4rem;
     gap: 7rem;
+
+    @media (max-width: 880px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 1054px) {
+      display: flex;
+      flex-direction: column;
+      // width: 50%;
+      // margin: auto;
+    }
   }
 
   &-image {
     height: 15rem;
     width: 20rem;
+  }
+
+  @media (max-width: 939px) {
+    margin-left: 0;
+    padding: 0;
   }
 }
 .span-flex {
@@ -190,3 +255,10 @@ main {
   margin-top: 1rem;
   color: #6d5d4b;
 }
+// .container {
+//   width: 100%;
+
+//   @media (max-width: 650px) {
+//     width: 100%;
+//   }
+// }
